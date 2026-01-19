@@ -56,7 +56,7 @@ set ignorecase
 set smartcase
 
 " For C Progamming
-let g:GCC_FULL_PATH = 'C:\Users\a851770\Downloads\Python\mingw-w64-v11.0.0\mingw64\bin\gcc'
+let g:GCC_FULL_PATH = 'C:\Users\a8570\Downloads\Python\mingw-w64-v11.0.0\mingw64\bin\gcc'
 command Com execute "!" . g:GCC_FULL_PATH . " % -o %:r && %:r"
 
 " new vim9 feature: Autocompletion (Extracted from official documentation https://vim-jp.org/vimdoc-en/insert.html#ins-autocompletion)
@@ -80,3 +80,8 @@ vnoremap <C-S-C> "+y
 map <C-S-V> "+gP
 imap <C-S-V>  <C-R>+
 cmap <C-S-V>  <C-R>+
+
+"Disable titlebar for gvim windows
+set go="C"
+
+
